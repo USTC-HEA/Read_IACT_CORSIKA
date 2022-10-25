@@ -10,7 +10,6 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_COMPILER "/usr/bin/g++")
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(CMAKE_CXX_FLAGS " -O0 -g -D_LARGEFILE64_SOURCE ")
-#set(CMAKE_CXX_FLAGS_RELEASE "-o2")
 
 set(HESS "/data/home/zhipz/hessioxxx/lib/libhessio.so")
 find_package(ROOT 6.24 CONFIG REQUIRED COMPONENTS Minuit)
